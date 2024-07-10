@@ -1,54 +1,66 @@
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px; /* Adjusted vertical gap between elements */
+    padding: 20px; /* Added padding for better spacing */
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px; /* Adjusted gap between logo elements */
+    text-align: center; /* Center align text for responsiveness */
 }
-.footer-logo p{
+
+.footer-logo p {
     color: #383838;
-    font-size: 46px;
+    font-size: 36px; /* Adjusted font size for smaller screens */
     font-weight: 700;
 }
-.footer-links{
+
+.footer-links {
     display: flex;
-    list-style: none;
-    gap: 50px;
+    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+    gap: 20px; /* Adjusted gap between links */
+    justify-content: center; /* Center align links for responsiveness */
     color: #252525;
-    font-size: 20px;
+    font-size: 16px; /* Adjusted font size for smaller screens */
 }
-.footer-links li{
+
+.footer-links li {
     cursor: pointer;
 }
-.footer-social-icon{
+
+.footer-social-icon {
     display: flex;
-    gap: 20px;
+    gap: 10px; /* Adjusted gap between social icons */
+    justify-content: center; /* Center align social icons for responsiveness */
 }
-.footer-icon-container{
-    padding: 10px;
-    padding-bottom: 6px;
+
+.footer-icon-container {
+    padding: 8px; /* Reduced padding for smaller screens */
     background: #fbfbfb;
     border: 1px solid #ebebeb;
 }
-.footer-copyright{
+
+.footer-copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px; /* Adjusted vertical gap between copyright elements */
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Adjusted bottom margin for smaller screens */
     color: #1a1a1a;
-    font-size: 20px;
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    text-align: center; /* Center align text for responsiveness */
 }
-.footer-copyright hr{
-    width: 80%;
+
+.footer-copyright hr {
+    width: 60%; /* Adjusted width for the horizontal rule */
     border: none;
-    border-radius: 10px;
-    height: 3px;
+    border-radius: 5px; /* Reduced border radius for smaller screens */
+    height: 2px; /* Reduced height for smaller screens */
     background: #c7c7c7;
 }
